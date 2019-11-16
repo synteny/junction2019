@@ -1,0 +1,465 @@
+[
+  {
+    "Id": "3308",
+    "Name": "Grillattu banaani",
+    "PieceSize": {
+      "Unit": "g",
+      "Amount": "170"
+    },
+    "Portions": {
+      "Unit": "annosta",
+      "Amount": "4"
+    },
+    "PreparationTime": {
+      "Description": "alle 30 min",
+      "TimeRange": {
+        "MinTime": 15,
+        "MaxTime": 30
+      }
+    },
+    "UserPortions": {
+      "$": {
+        "Unit": "henkilölle"
+      }
+    },
+    "Categories": [
+      {
+        "MainName": "Makuja maailmalta",
+        "MainId": "2",
+        "SubName": "Aasia",
+        "SubId": "7"
+      },
+      {
+        "MainName": "Jälkiruoat",
+        "MainId": "5",
+        "SubName": "Muut jälkiruoat",
+        "SubId": "41"
+      },
+      {
+        "MainName": "Sesonki",
+        "MainId": "1",
+        "SubName": "Kesä",
+        "SubId": "121"
+      },
+      {
+        "MainName": "Sesonki",
+        "MainId": "1",
+        "SubName": "Juhannus",
+        "SubId": "122"
+      },
+      {
+        "MainName": "Teema",
+        "MainId": "15",
+        "SubName": "Mitä tänään syötäisiin?",
+        "SubId": "144"
+      }
+    ],
+    "Pictures": [
+      "KR16_3_grillatutba",
+      "pv009xl1"
+    ],
+    "PictureUrls": [
+      {
+        "Id": "KR16_3_grillatutba",
+        "Normal": "https://k-file-storage-qa.imgix.net/f/k-ruoka/recipe/3308?w=1000&h=1000&fit=clip",
+        "Original": "https://k-file-storage-qa.imgix.net/f/k-ruoka/recipe/3308"
+      }
+    ],
+    "VideoUrl": "https://www.youtube.com/watch?v=jhKXETLl5w8&feature=youtu.be",
+    "VideoEmbedUrl": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jhKXETLl5w8\" frameborder=\"0\" allowfullscreen></iframe>",
+    "EnergyAmounts": {
+      "KcalPerPortion": "163.00",
+      "KcalPerUnit": "95.88",
+      "KJPerPortion": "681.98",
+      "KJPerUnit": "401.16",
+      "FatPerPortion": "4.68",
+      "FatPerUnit": "2.75",
+      "ProteinPerPortion": "2.60",
+      "ProteinPerUnit": "1.53",
+      "CarbohydratePerPortion": "26.96",
+      "CarbohydratePerUnit": "15.86"
+    },
+    "Ingredients": [
+      {
+        "SubSectionHeading": "_",
+        "SubSectionIngredients": [
+          [
+            {
+              "Name": "banaania",
+              "Amount": "4",
+              "PackageRecipe": "false",
+              "IngredientType": "5262",
+              "Unit": "",
+              "IngredientTypeName": "Banaani"
+            }
+          ],
+          [
+            {
+              "Name": "Karl Fazer suolainen toffeekrokantti -maitosuklaata",
+              "Amount": "12",
+              "AmountInfo": "palaa",
+              "PackageRecipe": "false",
+              "IngredientType": "16248",
+              "Unit": "",
+              "IngredientTypeName": "Fazer suolainen toffeekrokantti -maitosuklaa"
+            }
+          ],
+          [
+            {
+              "Name": "Pirkka paahdettuja ja suolattuja pistaasipähkinöitä",
+              "Ean": "6410405226594",
+              "PackageRecipe": "false"
+            }
+          ]
+        ]
+      }
+    ],
+    "Instructions": "# Tee banaaneihin pitkittäin syvä viilto. Paloittele suklaa. Työnnä banaanin viiltoon suklaapaloja. Kääri banaanit folioon tai nosta ne uunivuokaan. Kuori ja rouhi pistaasipähkinät.\r\n# Kypsennä grillissä tai 225-asteisessa uunissa noin 10-15 minuuttia, eli kunnes banaanien kuoret ovat muuttuneet mustanruskeiksi ja suklaa on sulanut. Tarjoa grillatut banaanit lämpiminä jäätelön ja pistaasipähkinöiden kanssa.",
+    "EndNote": "*Annoshinnat on laskettu K-citymarket-ketjun hintatason mukaan 2/2016. Tuoretuotteiden hinnat vaihtelevat sesongeittain.",
+    "Description": "Ihanat grillatut banaanit ovat kesän takuuvarma jälkiruoka. Tämäkin reseptin vain n. 1,10€/annos*.",
+    "DateCreated": "2008-06-26T00:00:00",
+    "DateModified": "2018-03-22T11:21:57",
+    "TvDate": "2016-06-08T00:00:00",
+    "Stamp": {
+      "Name": "Testattu K-koekeittiössä",
+      "Id": "1"
+    },
+    "RecipeUse": {
+      "Name": "k-ruoka.fi",
+      "Id": "1"
+    },
+    "resourceType": "recipe",
+    "Url": "https://www.k-ruoka.fi/reseptit/grillattu-banaani",
+    "UrlSlug": "grillattu-banaani",
+    "Sort": [
+      46.015816,
+      1,
+      3308
+    ]
+  },
+  {
+    "Id": "10457",
+    "Name": "Banaanileipä eli banana bread",
+    "PieceSize": {
+      "Unit": "g"
+    },
+    "Portions": {
+      "Unit": "annosta",
+      "Amount": "10"
+    },
+    "PreparationTime": {
+      "Description": "yli 60 min",
+      "TimeRange": {
+        "MinTime": 60
+      }
+    },
+    "UserPortions": {
+      "$": {
+        "Unit": "henkilölle"
+      }
+    },
+    "Categories": [
+      {
+        "MainName": "Makuja maailmalta",
+        "MainId": "2",
+        "SubName": "Pohjois-Amerikka",
+        "SubId": "8"
+      },
+      {
+        "MainName": "Pääruoat",
+        "MainId": "4",
+        "SubName": "Kastikkeet",
+        "SubId": "26"
+      },
+      {
+        "MainName": "Makeat leivonnaiset",
+        "MainId": "7",
+        "SubName": "Kahvikakut",
+        "SubId": "50"
+      },
+      {
+        "MainName": "Aamu-,väli- ja iltapalat",
+        "MainId": "11",
+        "SubName": "Muut aamu-, väli- ja iltapalat",
+        "SubId": "72"
+      },
+      {
+        "MainName": "Makeat leivonnaiset",
+        "MainId": "7",
+        "SubName": "Muut kakut",
+        "SubId": "98"
+      },
+      {
+        "MainName": "Iltapalat",
+        "MainId": "21",
+        "SubName": "Muut",
+        "SubId": "197"
+      },
+      {
+        "MainName": "Teema",
+        "MainId": "15",
+        "SubName": "Brunssi",
+        "SubId": "131"
+      },
+      {
+        "MainName": "Asiakassegmentointi (K-asiakkaat)",
+        "MainId": "17",
+        "SubName": "Nautiskelijat",
+        "SubId": "146"
+      },
+      {
+        "MainName": "Asiakassegmentointi (K-asiakkaat)",
+        "MainId": "17",
+        "SubName": "Innostujat",
+        "SubId": "147"
+      },
+      {
+        "MainName": "Apukategoriat",
+        "MainId": "18",
+        "SubName": "Helppo",
+        "SubId": "153"
+      },
+      {
+        "MainName": "Apukategoriat",
+        "MainId": "18",
+        "SubName": "Trendikäs ",
+        "SubId": "156"
+      },
+      {
+        "MainName": "Aamupalat",
+        "MainId": "20",
+        "SubName": "Muut",
+        "SubId": "190"
+      }
+    ],
+    "Pictures": [
+      "PI9_19_banaanileipa"
+    ],
+    "PictureUrls": [
+      {
+        "Id": "PI9_19_banaanileipa",
+        "Normal": "https://k-file-storage-qa.imgix.net/f/k-ruoka/recipe/10457?w=1000&h=1000&fit=clip",
+        "Original": "https://k-file-storage-qa.imgix.net/f/k-ruoka/recipe/10457"
+      }
+    ],
+    "Ingredients": [
+      {
+        "SubSectionHeading": "_",
+        "SubSectionIngredients": [
+          [
+            {
+              "Name": "kypsää banaania",
+              "Amount": "3",
+              "AmountInfo": "(450 g)",
+              "PackageRecipe": "false",
+              "IngredientType": "5262",
+              "Unit": "",
+              "IngredientTypeName": "Banaani"
+            }
+          ],
+          [
+            {
+              "Name": "voisulaa",
+              "Amount": "100",
+              "PackageRecipe": "false",
+              "IngredientType": "7343",
+              "Unit": "g",
+              "IngredientTypeName": "Voi"
+            }
+          ],
+          [
+            {
+              "Name": "fariinisokeria",
+              "Amount": "1",
+              "PackageRecipe": "false",
+              "IngredientType": "6963",
+              "Unit": "dl",
+              "IngredientTypeName": "Sokeri, fariini"
+            }
+          ],
+          [
+            {
+              "Name": "sokeria",
+              "Amount": "1/2",
+              "PackageRecipe": "false",
+              "IngredientType": "6961",
+              "Unit": "dl",
+              "IngredientTypeName": "Sokeri"
+            }
+          ],
+          [
+            {
+              "Name": "kananmuna",
+              "Amount": "1",
+              "PackageRecipe": "false",
+              "IngredientType": "5683",
+              "Unit": "",
+              "IngredientTypeName": "Kananmuna"
+            }
+          ],
+          [
+            {
+              "Name": "vehnäjauhoja",
+              "Ean": "6410405193414",
+              "Amount": "3",
+              "PackageRecipe": "false",
+              "IngredientType": "7293",
+              "Unit": "dl",
+              "IngredientTypeName": "Vehnäjauho"
+            }
+          ],
+          [
+            {
+              "Name": "kaurahiutaleita",
+              "Ean": "6410400041178",
+              "Amount": "2",
+              "PackageRecipe": "false",
+              "IngredientType": "5741",
+              "Unit": "dl",
+              "IngredientTypeName": "Kaurahiutale"
+            }
+          ],
+          [
+            {
+              "Name": "Pirkka pekaanipähkinää",
+              "Ean": "6410405126641",
+              "Amount": "1",
+              "PackageRecipe": "false",
+              "IngredientType": "6497",
+              "Unit": "dl",
+              "IngredientTypeName": "Pekaanipähkinä"
+            }
+          ],
+          [
+            {
+              "Name": "rusinoita",
+              "Amount": "1",
+              "PackageRecipe": "false",
+              "IngredientType": "6796",
+              "Unit": "dl",
+              "IngredientTypeName": "Rusina"
+            }
+          ],
+          [
+            {
+              "Name": "vaniljasokeria",
+              "Ean": "6410402023769",
+              "Amount": "2",
+              "PackageRecipe": "false",
+              "IngredientType": "7280",
+              "Unit": "tl",
+              "IngredientTypeName": "Vaniljasokeri"
+            }
+          ],
+          [
+            {
+              "Name": "kanelia",
+              "Ean": "6410405055644",
+              "Amount": "1",
+              "PackageRecipe": "false",
+              "IngredientType": "5689",
+              "Unit": "tl",
+              "IngredientTypeName": "Kaneli, jauhettu"
+            }
+          ],
+          [
+            {
+              "Name": "kardemummaa",
+              "Ean": "6410402024612",
+              "Amount": "1",
+              "PackageRecipe": "false",
+              "IngredientType": "5701",
+              "Unit": "tl",
+              "IngredientTypeName": "Kardemumma"
+            }
+          ],
+          [
+            {
+              "Name": "Pirkka ruokasoodaa",
+              "Ean": "6410402023745",
+              "Amount": "1",
+              "PackageRecipe": "false",
+              "IngredientType": "6794",
+              "Unit": "tl",
+              "IngredientTypeName": "Ruokasooda"
+            }
+          ],
+          [
+            {
+              "Name": "suolaa",
+              "Amount": "1",
+              "PackageRecipe": "false",
+              "IngredientType": "7049",
+              "Unit": "tl",
+              "IngredientTypeName": "Suola"
+            }
+          ]
+        ]
+      },
+      {
+        "SubSectionHeading": "Pinnalle",
+        "SubSectionIngredients": [
+          [
+            {
+              "Name": "Pirkka vaahterasiirappia",
+              "Ean": "6410402018604",
+              "Amount": "2",
+              "PackageRecipe": "false",
+              "IngredientType": "7233",
+              "Unit": "rkl",
+              "IngredientTypeName": "Vaahterasiirappi"
+            },
+            {
+              "Name": "siirappia",
+              "PackageRecipe": "false",
+              "IngredientType": "6898",
+              "IngredientTypeName": "Siirappi, tumma"
+            }
+          ],
+          [
+            {
+              "Name": "banaani",
+              "Amount": "1",
+              "PackageRecipe": "false",
+              "IngredientType": "5262",
+              "Unit": "",
+              "IngredientTypeName": "Banaani"
+            }
+          ],
+          [
+            {
+              "Name": "Pirkka pekaanipähkinöitä",
+              "Ean": "6410405126641",
+              "Amount": "1/2",
+              "PackageRecipe": "false",
+              "IngredientType": "6497",
+              "Unit": "dl",
+              "IngredientTypeName": "Pekaanipähkinä"
+            }
+          ]
+        ]
+      }
+    ],
+    "Instructions": "# Voitele suorakaiteen mallinen, litran vetoinen leipävuoka.\r\n# Muussaa banaanit haarukalla.\r\n# Sekoita kulhossa hieman jäähtynyt voisula, sokerit, muna ja banaanisose.\r\n# Sekoita kuivat aineet keskenään ja kääntele taikinaan.\r\n# Kaada taikina vuokaan. Valuta leivän päälle siirappia ja koristele leipä halkaistulla banaanilla ja pähkinöillä.\r\n# Paista banaanileipää 175-asteisen uunin keskitasolla 50 minuuttia. Peitä leipä tarvittaessa leivinpaperilla, jos se tummuu liikaa.\r\n# Anna banaanileivän jäähtyä ennen kuin irrotat sen vuoasta.\r\n# Tarjoa banaanileipä esimerkiksi pähkinävoin kanssa.",
+    "EndNote": "*Annoshinnat on laskettu K-citymarket-ketjun hintatason mukaan 10/2019. Tuoretuotteiden hinnat vaihtelevat sesongeittain.",
+    "Description": "Banaanileipä eli banana bread on mehevä jenkkiherkku, joka nimestään huolimatta on enemmän kakku kuin leipä. Ihanan helppo taikina valmistuu nopeasti sekoittamalla. Banaanileipä on täydellinen loppusijoituspaikka kypsille pantteribanaaneille! Noin 0,65 €/annos*",
+    "DateCreated": "2019-05-27T15:22:58",
+    "DateModified": "2019-11-01T18:37:58",
+    "Stamp": {
+      "Name": "Testattu K-koekeittiössä",
+      "Id": "1"
+    },
+    "RecipeUse": {
+      "Name": "k-ruoka.fi",
+      "Id": "1"
+    },
+    "resourceType": "recipe",
+    "Url": "https://www.k-ruoka.fi/reseptit/banaanileipa-eli-banana-bread",
+    "UrlSlug": "banaanileipa-eli-banana-bread",
+    "Sort": [
+      42.406395,
+      1,
+      10457
+    ]
+  }
+]
