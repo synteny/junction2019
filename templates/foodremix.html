@@ -207,7 +207,7 @@
 
                                 <div class="row">
                                     <div class="col-md-2">
-                                        <h5>{{ item.title }}</h5>
+                                        <h5><a href="{{ item.url }}">{{ item.title }}</a></h5>
                                     </div>
 
                                     <div class="col-md-3">
@@ -220,8 +220,11 @@
 
                                     <div class="col-md-3">
                                         <ul>
-                                            {% for ing in item.ingredients %}
+                                            {% for ing in item.available_ingredients %}
                                             <li>{{ ing }}</li>
+                                            {% endfor %}
+                                            {% for ing in item.unavailable_ingredients %}
+                                            <li style="text-decoration: line-through">{{ ing }}</li>
                                             {% endfor %}
                                         </ul>
                                     </div>
