@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='images/favicon.png') }}">
-    <title>Material Pro Admin Template - The Most Complete & Trusted Bootstrap 4 Admin Template</title>
+    <title>Food Remix</title>
     <!-- Bootstrap Core CSS -->
     <link href="{{ url_for('static', filename='plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Custom CSS -->
@@ -59,7 +59,7 @@
                         <!-- Logo text -->
                         <span>
                          <!-- dark Logo text -->
-                         <img src="../assets/images/juncTrans.png" alt="homepage" class="dark-logo" />
+                         <img src="{{ url_for('static', filename='images/juncTrans.png') }}" alt="homepage" class="dark-logo" />
                          <!-- Light Logo text -->    
                          <!--img src="../assets/images/logo-light-text.png" class="light-logo" alt="homepage" /--></span> </a>
                 </div>
@@ -165,6 +165,7 @@
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-body">
+                                {% if not recipes %}
                                 <h4 class="card-title">Recipe Search</h4>
 
                                 <!--<div class="input_fields_wrap">
@@ -172,12 +173,12 @@
                                     <div><input type="text" name="mytext[]"></div>
                                 </div>-->
 
-                                <br>
+                                <br/>
                                 <form action="#" method="POST">
                                 <div class="row">
                                     <div class="col-md-7 input_fields_wrap">
                                         <div class="input-group">
-                                            <input type="text" class="form-control" placeholder="Ingridient...">
+                                            <input type="text" class="form-control" placeholder="Ingredient..." name="ingredient1">
 
                                             <a href="#" class="btn btn-danger" class="remove_field">Remove</a>
 
@@ -196,170 +197,44 @@
                                     </div>
                                 </div>
                                 </form><br>
+                                {% endif %}
 
-                                <!--h3>We Propose these recipes for you:</h3>
+                                {% if recipes %}
 
-                                <div class="row">
+                                <h3>Matching recipes:</h3><br/>
 
-                                    <div class="col-md-2">
-                                        <h4 class="text-center">Recipe</h4>
-                                    </div>
-
-                                    <div class="col-md-3">
-                                        <h4 class="text-center">Categories</h4>
-                                    </div>
-
-                                    <div class="col-md-3">
-                                        <h4 class="text-center">Ingredients</h4>
-                                    </div>
-
-                                    <div class="col-md-4">
-                                        <h4 class="text-center">Picture</h4>
-                                    </div>
-                                </div><br>
+                                {% for item in recipes %}
 
                                 <div class="row">
                                     <div class="col-md-2">
-                                        <h5>Kebab</h5>
+                                        <h5>{{ item.title }}</h5>
                                     </div>
 
                                     <div class="col-md-3">
                                         <ul>
-                                            <li>Summer</li>
-                                            <li>Pizza</li>
-                                            <li>Sea food</li>
+                                            {% for cat in item.categories %}
+                                            <li>{{ cat }}</li>
+                                            {% endfor %}
                                         </ul>
                                     </div>
 
                                     <div class="col-md-3">
                                         <ul>
-                                            <li>Potatoes</li>
-                                            <li>Tomatoes</li>
-                                            <li>Cheese</li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="col-md-4">
-                                        <img width="100%" src="{{ url_for('static', filename='images/food/suchi.jpg') }}">
-                                    </div>
-                                </div><br>
-
-
-                                <div class="row">
-                                    <div class="col-md-2">
-                                        <h5>Kebab</h5>
-                                    </div>
-
-                                    <div class="col-md-3">
-                                        <ul>
-                                            <li>Summer</li>
-                                            <li>Pizza</li>
-                                            <li>Sea food</li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="col-md-3">
-                                        <ul>
-                                            <li>Potatoes</li>
-                                            <li>Tomatoes</li>
-                                            <li>Cheese</li>
+                                            {% for ing in item.ingredients %}
+                                            <li>{{ ing }}</li>
+                                            {% endfor %}
                                         </ul>
                                     </div>
 
                                     <div class="col-md-4">
-                                        <img width="100%" src="{{ url_for('static', filename='images/food/suchi.jpg') }}">
+                                        <img width="100%" src="{{ item.img }}">
                                     </div>
+                                </div><br/>
 
 
-                                </div><br>
+                                {% endfor %}
 
-
-                                <div class="row mb-20">
-                                    <div class="col-md-2">
-                                        <h5>Kebab</h5>
-                                    </div>
-
-                                    <div class="col-md-3">
-                                        <ul>
-                                            <li>Summer</li>
-                                            <li>Pizza</li>
-                                            <li>Sea food</li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="col-md-3">
-                                        <ul>
-                                            <li>Potatoes</li>
-                                            <li>Tomatoes</li>
-                                            <li>Cheese</li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="col-md-4">
-                                        <img width="100%" src="{{ url_for('static', filename='images/food/suchi.jpg') }}">
-                                    </div>
-
-
-                                </div><br>
-
-
-                                <div class="row">
-                                    <div class="col-md-2">
-                                        <h5>Kebab</h5>
-                                    </div>
-
-                                    <div class="col-md-3">
-                                        <ul>
-                                            <li>Summer</li>
-                                            <li>Pizza</li>
-                                            <li>Sea food</li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="col-md-3">
-                                        <ul>
-                                            <li>Potatoes</li>
-                                            <li>Tomatoes</li>
-                                            <li>Cheese</li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="col-md-4">
-                                        <img width="100%" src="{{ url_for('static', filename='images/food/suchi.jpg') }}">
-                                    </div>
-
-
-                                </div><br>
-
-
-                                <div class="row">
-                                    <div class="col-md-2">
-                                        <h5>Kebab</h5>
-                                    </div>
-
-                                    <div class="col-md-3">
-                                        <ul>
-                                            <li>Summer</li>
-                                            <li>Pizza</li>
-                                            <li>Sea food</li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="col-md-3">
-                                        <ul>
-                                            <li>Potatoes</li>
-                                            <li>Tomatoes</li>
-                                            <li>Cheese</li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="col-md-4">
-                                        <img width="100%" src="{{ url_for('static', filename='images/food/suchi.jpg') }}">
-                                    </div>
-
-
-                                </div><br-->
-
+                                {% endif %}
 
                                 <!--
                                 <div class="table-responsive">
@@ -471,9 +346,6 @@
             <!-- ============================================================== -->
             <!-- footer -->
             <!-- ============================================================== -->
-            <footer class="footer">
-                © 2019 Food Planning
-            </footer>
             <!-- ============================================================== -->
             <!-- End footer -->
             <!-- ============================================================== -->
@@ -519,7 +391,7 @@
         e.preventDefault();
         if(x < max_fields){ //max input box allowed
             x++; //text box increment
-            $(wrapper).append('<div class="input-group"><input type="text" class="form-control"  placeholder="Another ingredient..."name="mytext[]"/><a href="#" class="remove_field btn btn-danger">Remove</a></div>');
+            $(wrapper).append('<div class="input-group"><input type="text" class="form-control"  placeholder="Another ingredient..." name="ingredient' + x + '"/><a href="#" class="remove_field btn btn-danger">Remove</a></div>' );
         }
         
     });
